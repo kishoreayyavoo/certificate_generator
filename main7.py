@@ -197,7 +197,7 @@ class ProfessionalCertificateEditor:
         
         # Create main window
         self.root = tk.Tk()
-        self.root.title("Professional Certificate Editor v2.0")
+        self.root.title("Kalash Certificate Editor v2.0")
         self.root.state('zoomed') if sys.platform == "win32" else self.root.attributes('-zoomed', True)
         self.root.configure(bg='#f0f0f0')
         
@@ -302,7 +302,8 @@ class ProfessionalCertificateEditor:
         # Title
         title_frame = ttk.Frame(parent)
         title_frame.pack(fill="x", pady=(0, 20))
-        ttk.Label(title_frame, text="Professional Certificate Editor", 
+        ttk.Label(title_frame, text="Kalash
+        Certificate Editor", 
                  font=("Arial", 14, "bold")).pack()
         
         # Save All button at the top
@@ -1347,4 +1348,5 @@ def main():
         traceback.print_exc()
 
 if __name__ == "__main__":
+
     main()
